@@ -1,40 +1,14 @@
 # also-purchased-parse
 
-1. brew install yarn
-2. yarn install
-3. yarn run serve
+1. `brew install yarn` if you don't have it (for Mac)
+2. `yarn install`
+3. `yarn run serve`
 4. Open http://localhost:8080/
+5. Cut and paste the "Customers Also Purchased" and/or "Customers Also Viewed"
+from the Amazon website into the text area. The app will extract de-duped lists
+of the author, series and book title.
 
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Run unit tests w/ watch
+## Run tests
 ```
 yarn run test:unit --watch
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
